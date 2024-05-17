@@ -5,6 +5,8 @@ public class test {
             if (script != null) {
                 // BAD: The script to be executed is controlled by the user.
                 Runtime.getRuntime().exec(script);
+            } else {
+                main(null);
             }
         }
     }
